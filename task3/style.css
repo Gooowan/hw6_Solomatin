@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: lightcoral;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #666;
+    transform: scale(1.07);
+}
+
+h2 {
+    color: ghostwhite;
+}
+
+pre {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+#response {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+
+}
