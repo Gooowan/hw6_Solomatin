@@ -38,3 +38,17 @@ pre {
     transition: height 0.5s ease-out;
 
 }
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: lightcoral;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #666;
+}

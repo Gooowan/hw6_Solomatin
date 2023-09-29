@@ -13,6 +13,12 @@ for (let i = 1; i <= 30; i++) {
 }
 
 function fetchApod(day) {
+    // Check if the day is 20
+    if (day > 19) {
+        handleError('Data for day 20 is not allowed to be fetched.');
+        return;
+    }
+
     const currentDate = new Date();
     if (currentDate.getDate() < day) {
         handleError('Fetching future data is not allowed.');
